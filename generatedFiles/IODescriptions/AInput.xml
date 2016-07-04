@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Automatically generated IO group description. Please do NOT modify!
+-->
+<SunriseIOGroupDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0">
+  <IOGroup DisplayName="AInput" IconName="AInput" SignalTypes="InOut" TemplateName="AInput">
+    <IOs>
+      <AnalogIOItem Name="AInput_1" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_2" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_3" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_4" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_5" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_6" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_7" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+      <AnalogIOItem Name="AInput_8" DataType="INT" IOType="Input" UsedBitWidth="16" IsConnected="true" IsSigned="false" RangeStart="0" RangeEnd="5000">
+        <Description />
+      </AnalogIOItem>
+    </IOs>
+    <Description />
+  </IOGroup>
+</SunriseIOGroupDescription>
