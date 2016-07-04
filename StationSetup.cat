@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigurationProject>
+    <TopologyItem itemPath="com.kuka/Project" name="Project" selectedVersion="1" uniqueID="">
+        <TopologyItem itemPath="com.kuka/ControllerLBR5" name="KUKA_Sunrise_Cabinet_1" selectedVersion="1" uniqueID="70bd81d8-b5a6-41e7-a423-27feca92d98e">
+            <TopologyItem itemPath="com.kuka/LBR5_14kg" name="LBR_iiwa_14_R820_1" selectedVersion="2" uniqueID="5d43ea15-f3d9-4dc3-96e0-d6d37b73b98e">
+                <Property displayName="userName" key="userName" showInEditor="false" showInWizard="false" type="String">
+                    <Value>LBR_iiwa_14_R820_1</Value>
+                </Property>
+                <Property displayName="Medien-Flansch" key="MAM" showInEditor="true" showInWizard="true" type="String">
+                    <Value displayName="Medien-Flansch elektrisch">MADA=MF&amp;IOConfig=Default</Value>
+                    <PossibleValue displayName="Medien-Flansch">MADA=MF&amp;IOConfig=Default</PossibleValue>
+                    <PossibleValue displayName="Medien-Flansch pneumatisch">MADA=MF&amp;IOConfig=Default</PossibleValue>
+                    <PossibleValue displayName="Medien-Flansch elektrisch">MADA=MF&amp;IOConfig=Default</PossibleValue>
+                    <PossibleValue displayName="Medien-Flansch IO pneumatisch">MADA=MF&amp;IOConfig=MFIO</PossibleValue>
+                    <PossibleValue displayName="Medien-Flansch IO elektrisch">MADA=MF&amp;IOConfig=MFIO</PossibleValue>
+                    <PossibleValue displayName="Medien-Flansch Touch pneumatisch">MADA=MFT&amp;IOConfig=MFT</PossibleValue>
+                    <PossibleValue displayName="None (M0)">MADA=M0&amp;IOConfig=Default</PossibleValue>
+                    <PossibleValue displayName="Light Alpha (MLA)">MADA=MLA&amp;IOConfig=Default</PossibleValue>
+                    <PossibleValue displayName="Light Beta (MLB)">MADA=MLB&amp;IOConfig=MLB</PossibleValue>
+                </Property>
+                <PropertyGroup displayName="Montage-Richtung" key="ROBROOT" showInEditor="true">
+                    <Property displayName="X in mm" key="X" showInEditor="false" showInWizard="false" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                    <Property displayName="Y in mm" key="Y" showInEditor="false" showInWizard="false" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                    <Property displayName="Z in mm" key="Z" showInEditor="false" showInWizard="false" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                    <Property displayName="Drehung um Z-Achse in ° (A-Winkel)" key="A" regex="(-|\+)?(((1)(8)(0)((\.)(0))?)|((1)[0-7][0-9]((\.)[0-9])?)|([1-9][0-9]((\.)[0-9])?)|([0-9]((\.)[0-9])?))" showInEditor="true" showInWizard="true" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                    <Property displayName="Drehung um Y-Achse in ° (B-Winkel)" key="B" regex="(-|\+)?(((9)(0)(\.0)?)|(([0-8])?([0-9])((\.)[0-9])?))" showInEditor="true" showInWizard="true" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                    <Property displayName="Drehung um X-Achse in ° (C-Winkel)" key="C" regex="(-|\+)?(((1)(8)(0)((\.)(0))?)|((1)[0-7][0-9]((\.)[0-9])?)|([1-9][0-9]((\.)[0-9])?)|([0-9]((\.)[0-9])?))" showInEditor="true" showInWizard="true" type="double">
+                        <Value>0.0</Value>
+                    </Property>
+                </PropertyGroup>
+            </TopologyItem>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.2.0.8" itemPath="com.kuka/ApplicationServer" selectedVersion="1.2.0.8" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/ApplicationServerGitHelper" selectedVersion="1.0.0.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/ApplicationServerGuiceLib" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.4.2.8" itemPath="com.kuka/ApplicationServerServices" selectedVersion="1.4.2.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/BasicMotionSunriseModules" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.12.6.8" itemPath="com.kuka/BasicRoboticsJavaLib" selectedVersion="1.12.6.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Cabinet" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/CatalogInstallationScripts" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/CommonJavaLib" selectedVersion="1.0.0.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Config_Controller_Sunrise_Cabinet" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.1.8" itemPath="com.kuka/ConfigurationModelLib" selectedVersion="1.0.1.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/ConnectivityBasicModules" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/ControlPanelDriver" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/ControllerFramework" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/DeviceManager" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/EtherCATWrapper" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/FSoESlaveSupport" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/FastRobotInterface" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/FastRobotInterfaceApiExtension" selectedVersion="1.0.0.8" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/FastRobotInterface_SDK_Cpp" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/GMSAdjustment" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/GenericSunriseIODevice" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/HandGuiding" selectedVersion="1.0.0.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/HandGuidingFeature" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/IODrivers" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/IOManager" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/IkarusAntiVirDefinition" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/IkarusAntiVirInstallation" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/JavaVM" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/KONISupport" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/KrcDiag" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/LBR5Support" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/LBRCompounds" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/LBRExampleApplications" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Madas_LBR5_14kg" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/MeasurementApiExtension" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/MediaFlangeIOConfig" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/MotionCompounds" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/MotionManager" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/NexxtGenSharedLib" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PdsFirmwareUpdate" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PlatformAdapter" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/PowerManagementService" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/ProfinetSupport" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.1.0.8" itemPath="com.kuka/Publishing" selectedVersion="1.1.0.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/RealtimePTPSupport" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/RobustMode" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Safety" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SafetyDiagnose" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SmartHMI" selectedVersion="1" usage="Feature">
+                <PropertyGroup displayName="Calibration" key="Measurement" showInEditor="true">
+                    <Property displayName="Minimum calibration point distance (tool) in mm" key="measurementMinFrameDistanceTool" regex="^((?:\d{1,2}|1\d{2})((\.)\d{1,9})?|200((\.)0{1,9})?)$" showInEditor="true" showInWizard="false" type="double">
+                        <Value>8.0</Value>
+                    </Property>
+                    <Property displayName="Maximum deviation in mm" key="measurementToleranceQuality" regex="^((?:\d{1,2}|1\d{2})((\.)\d{1,9})?|200((\.)0{1,9})?)$" showInEditor="true" showInWizard="false" type="double">
+                        <Value>5.0</Value>
+                    </Property>
+                    <Property displayName="Minimum calibration point distance (base) in mm" key="measurementMinFrameDistanceBase" regex="^((?:\d{1,2}|1\d{2})((\.)\d{1,9})?|200((\.)0{1,9})?)$" showInEditor="true" showInWizard="false" type="double">
+                        <Value>50.0</Value>
+                    </Property>
+                    <Property displayName="Minimum angle in degrees Celsius" key="measurementMinAngle" regex="^((?:\d{1,2}|[1-2]\d{2}|3[0-5]\d)((\.)\d{1,9})?|360((\.)0{1,9})?)$" showInEditor="true" showInWizard="false" type="double">
+                        <Value>2.5</Value>
+                    </Property>
+                </PropertyGroup>
+            </SoftwareItem>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SmartHMIPdsFirmwareUpdate" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="43" itemPath="com.kuka/SmartPadApplication" selectedVersion="43" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="28" itemPath="com.kuka/SmartPadBootloader" selectedVersion="28" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="50" itemPath="com.kuka/SmartPadImage" selectedVersion="50" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SmartPadSupport" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SmartPadUpdater" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/StartKRC" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SunriseBasicCompounds" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SunriseDataRecording" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SunriseDataRecordingRTLibrary" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SunriseFramework" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SunriseSafety" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/SystemManager" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.1.4.8" itemPath="com.kuka/TaskManager" selectedVersion="1.1.4.8" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/ThinMM" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/ThinMMSimulationDriver" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/Trace" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/VirtualLBR" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/VxWorksBSP" selectedVersion="1" usage="Library">
+                <PropertyGroup displayName="UDPLogging" key="UDPLogging" showInEditor="false">
+                    <Property displayName="Enable UDP Logging" key="EnableUDPLogging" showInEditor="false" showInWizard="false" type="boolean">
+                        <Value>false</Value>
+                    </Property>
+                    <Property displayName="IP for UDP Logging" key="LoggingIP" showInEditor="false" showInWizard="false" type="String">
+                        <Value>192.168.001.001</Value>
+                    </Property>
+                    <Property displayName="Port for UDP Logging" key="LoggingPort" showInEditor="false" showInWizard="false" type="int">
+                        <Value>12345</Value>
+                    </Property>
+                </PropertyGroup>
+            </SoftwareItem>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="NONE" itemPath="com.kuka/VxWorksBSP_MemLeakFinder" selectedVersion="NONE" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/XMLAppService" selectedVersion="1" usage="Library"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/connectivityrenderingStandalone" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/connectivityrenderingVrep" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/connectivitytutorialsCodeBridge" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/connectivitytutorialsHaptic" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/connectivitytutorialsSimpleDirect" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1" itemPath="com.kuka/connectivitytutorialsSimpleSmart" selectedVersion="1" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="false" installedVersion="NONE" itemPath="com.kuka/connectivitytutorialsVisual" selectedVersion="NONE" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/directServoApiExtension" selectedVersion="1.0.0.8" usage="Feature"/>
+            <SoftwareItem autoSelected="true" installItem="true" installedVersion="1.0.0.8" itemPath="com.kuka/smartServoApiExtension" selectedVersion="1.0.0.8" usage="Feature"/>
+            <Property displayName="userName" key="userName" showInEditor="false" showInWizard="false" type="String">
+                <Value>KUKA_Sunrise_Cabinet_1</Value>
+            </Property>
+            <Property displayName="IP" key="IP" showInEditor="true" showInWizard="false" type="String">
+                <Value>172.31.1.147</Value>
+            </Property>
+        </TopologyItem>
+        <Property displayName="userName" key="userName" showInEditor="false" showInWizard="false" type="String">
+            <Value>Project</Value>
+        </Property>
+    </TopologyItem>
+</ConfigurationProject>

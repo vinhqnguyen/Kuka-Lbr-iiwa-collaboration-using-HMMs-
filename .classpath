@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="examples"/>
+	<classpathentry kind="src" path="samples"/>
+	<classpathentry kind="lib" path="KUKAJavaLib/roboticsAPI.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/roboticsAPI-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/common.utilities.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/common.utilities-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/connectivity.fri.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/connectivity.fri-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/roboticsAPI.handGuiding.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/roboticsAPI.handGuiding-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/applicationServer.publishing.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/applicationServer.publishing-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/roboticsAPI.directServo.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/roboticsAPI.directServo-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/de.mukis.jama-2.0.0.M1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/de.mukis.jama-2.0.0.M1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/common.JniExtractor.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/common.JniExtractor-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="KUKAJavaLib/roboticsAPI.smartServo.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CollaborativeManipulation/KUKAJavaLib/roboticsAPI.smartServo-javadoc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
