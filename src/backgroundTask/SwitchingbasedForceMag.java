@@ -18,9 +18,7 @@ import com.kuka.roboticsAPI.userInterface.ServoMotionUtilities;
 /**
  * Description: This program run cyclicly estimation of human's intention 
  * of rotation vs. translation based on Force magnitude.
- * Translation <= (F > f0 + delta_f)
- * Rotation    <= (F < f0)
- *  
+ *  The switching function has threshold f0 and hysterisis
  * Version: July 04, 2016
  * Author: Vinh Quang Nguyen (vinhnguyen.ac@gmail.com)
  */
