@@ -249,7 +249,7 @@ public class Running2HMMs extends RoboticsAPICyclicBackgroundTask {
 		System.out.println("Learning");
 		KMeansLearner <ObservationVector > kml =
 				new KMeansLearner <ObservationVector >(nbStates,
-				new OpdfMultiGaussianFactory (3), seqsTrain);
+				new OpdfMultiGaussianFactory (dimension), seqsTrain);
 		
 		Hmm <ObservationVector> initHmm = kml.learn ();
 		
