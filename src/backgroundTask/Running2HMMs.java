@@ -141,7 +141,7 @@ public class Running2HMMs extends RoboticsAPICyclicBackgroundTask {
 	public void runCyclic(){
 		
 		//==========================================================================================//
-		// 1. Check the runCyclic() works? blink LED every 200 milisec.                             //
+		// 1. Check the runCyclic() works? blink LED every (20 * period) milisec.                             //
 		//==========================================================================================//
 		count = count + 1;
 		if ((count % 20 == 0) && (count < 12000)){
@@ -151,7 +151,7 @@ public class Running2HMMs extends RoboticsAPICyclicBackgroundTask {
 		
 		
 		//==========================================================================================//
-		// 2. Collect data every 40 milisec, then run HMMs to get the results                       //
+		// 2. Collect data every period milisec, then run HMMs to get the results                       //
 		//==========================================================================================//
 		
 		// Collect data read from the controller
@@ -194,7 +194,7 @@ public class Running2HMMs extends RoboticsAPICyclicBackgroundTask {
 		else temp = 0;
 		
 		// conditioning the switching
-		if(Math.abs(Tz) < 1) prediction = prediction_old;
+		//if(Math.abs(Tz) < 1) prediction = prediction_old;
 		
 		// switching
 		prediction = temp;
