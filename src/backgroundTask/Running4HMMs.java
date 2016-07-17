@@ -219,7 +219,7 @@ public class Running4HMMs extends RoboticsAPICyclicBackgroundTask {
 		
 		
 		//only running HMMs if the person try to move the object
-		if(Math.abs(Tz) < 1) prediction = prediction_old;
+		//if(Math.abs(Tz) < 1) prediction = prediction_old;
 		
 		prediction_old = prediction;
 		temp_old = temp;
