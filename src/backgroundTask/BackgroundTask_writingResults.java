@@ -53,9 +53,9 @@ public class BackgroundTask_writingResults extends
 		lbr = (LBR) getRobot(kuka_Sunrise_Cabinet_1,
 				"LBR_iiwa_14_R820_1");
 		
-        double[] translationOfTool = { 0, 0, 100 };
+        double[] translationOfTool = { 0, 0, 0 };
         double mass = 0;
-        double[] centerOfMassInMillimeter = { 0, 0, 100 };
+        double[] centerOfMassInMillimeter = { 0, 0, 0 };
         
         _toolAttachedToLBR = ServoMotionUtilities.createTool(lbr,
                 "SimpleJointMotionSampleTool", translationOfTool, mass,
